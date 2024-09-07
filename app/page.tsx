@@ -1,12 +1,11 @@
-import NumberComponent from "@/components/number-component";
-import Image from "next/image";
+"use client";
+
+import ChatInterface from "../components/chat-interface";
 
 export default function Home() {
   return (
-    <main className="p-10 ">
-      
-     <NumberComponent />
-     
+    <main className="h-screen">
+      <ChatInterface />
     </main>
   );
 }
